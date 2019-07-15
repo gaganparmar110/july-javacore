@@ -1,4 +1,4 @@
-package fabonacciSeries;
+package FabonacciSeries;
 
 import java.util.Scanner;
 
