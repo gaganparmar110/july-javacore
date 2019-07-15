@@ -1,4 +1,4 @@
-package armStrongNumber;
+package ArmStrongNumber;
 
 import java.util.Scanner;
 
@@ -7,8 +7,7 @@ public class armStrong {
         System.out.println("enter a no: ");
         Scanner sc=new Scanner(System.in);
         int temp=sc.nextInt();
-        int a=temp;
-        int sum=0;
+        int a=temp,sum=0;
         for(int i=0;a!=0;i++){
             int b=a%10;   //371%10 = 1;
                 a=a/10;   //371/10 = 37;
